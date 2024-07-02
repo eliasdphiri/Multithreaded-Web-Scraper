@@ -1,6 +1,6 @@
 # Multithreaded-Web-Scraper
 
-This repository contains a C++ web scraper designed to extract job listings from websites. It utilizes multithreading for efficient scraping and stores the extracted data in a SQLite database.
+This repository contains a C++ multithread web scraper version 3 (mwsv3) designed to extract job listings from websites. It utilizes multithreading for efficient scraping and stores the extracted data in a SQLite database.
 
 Features:
 
@@ -30,7 +30,7 @@ sqlite3: Follow your system's package manager instructions (e.g., sudo apt insta
 Email Validation Library:
 Option 1 (EmailAddress): git clone https://github.com/soggyonion/EmailAddress.git && cd EmailAddress && mkdir build && cmake .. && make
 Option 2 (cpp-email-validator): git clone https://github.com/open-source-parsers/cpp-email-validator.git && cd cpp-email-validator && mkdir build && cmake .. && make
-Compile the code: g++ -o web_scraper main.cpp -lcurl -lxml2 -lsqlite3 (replace libraries paths if needed)
+Compile the code: g++ -o web_scraper mwsv3.cpp -lcurl -lxml2 -lsqlite3 (replace libraries paths if needed)
 
 Usage:
 
